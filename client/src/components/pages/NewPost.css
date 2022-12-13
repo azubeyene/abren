@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.NewPost-container {
+  display: flex; 
+  flex-direction: column; 
+  margin: 30px; 
+}
+
+.NewPost-back-arrow {
+  margin-top: 5px; 
+  color: #467599;
+}
+
+.NewPost-header {
+  display: flex; 
+  flex-direction: row; 
+  margin: 20px; 
+}
+
+.NewPost-Title {
+  text-align:center; 
+  margin:auto; 
+  color:#467599;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+.NewPost-image {
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.NewPost-description {
+  display:flex; 
+  flex-direction: column; 
+  margin: 0 auto; 
+  width: 45vw;
+  height: 10vh;
+}
+
+.NewPost-buttons {
+  display: flex; 
+  flex-direction: row; 
+  margin:10px; 
+  justify-content: flex-end;
+  margin-right: 27%;
+  padding-right: 10px;
+
+}
+
+.NewPost-Clear-Button {
+  background-color: #E7EDF0;
+  color: #467599; 
+  font-family: 'Playfair Display', serif;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 3px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,.16);
+}
+
+.NewPost-Post-Button {
+  background-color: #467599;
+  color: #E7EDF0;
+  font-family: 'Playfair Display', serif;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 3px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,.16);
+}
+
+input[type=text] {
+  padding:10px; 
+  height:100%;
+  width:100%; 
+}
+
+.NewPost-textarea {
+  padding:10px; 
+  height:100%;
+  width:100%; 
+}
+
+.MuiButtonBase-root{
+  background-color: #467599;
+  color: #fff;
+} 
+
+MuiButton-root{
+  background-color: #467599;
+  color: #fff;
+} 
+.MuiButton-contained{
+  background-color: #467599;
+  color: #fff;
+}

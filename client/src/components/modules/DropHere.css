@@ -1,0 +1,41 @@
+
+
+.drop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 45vw;
+    height: 45vh;
+    border: 4px dashed #467599;
+}
+
+.drop-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 65vw;
+    height: 60vh;
+}
+
+.upload-icon {
+    width: 60px;
+    height: 60px;
+    background: url(./imageUpload.png) no-repeat center center; 
+    background-size: 100%;
+    text-align: center;
+    margin: 0 auto; 
+    padding-top: 30px;
+}
+
+.drop-message {
+    text-align: center;
+    color: #4aa1f3;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.drop-image-upload>input {
+    display: none;
+  } 

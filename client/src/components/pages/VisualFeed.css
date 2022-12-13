@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
+
+.container {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  
+  .cards {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 20px;
+  }
+
+  .VisualFeed-Title {
+    padding: 100px 0 25px 0;
+    color:#467599;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 75px;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
+
+.gridCont{
+  display: flex;
+  justify-content: center;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: 20px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding: 15px; /* gutter size */
+  background-clip: padding-box;
+  margin: 40px;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  margin-bottom: 50px;
+  padding: 0;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.my-masonry-grid_column > div:hover {
+  box-shadow: 0 36px 48px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media (max-width: 800px) {
+  .my-masonry-grid {
+    margin-left: -15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column {
+    padding-left: 15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column > div {
+    margin-bottom: 15px; /* space between items */
+  }
+}

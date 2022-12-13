@@ -1,0 +1,39 @@
+/* html {
+    overflow: hidden;
+    height: 100%;
+} */
+
+html, body
+{
+width: 100%;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    overflow: auto;
+}
+
+.map-NavbarContainer {
+    margin: 0;
+    background-color: #97797B;
+    height: 150px;
+    justify-content: center;
+    align-content: center;
+}
+
+.map-NavBarTitle {
+    font-size: 80px;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+/* --primary: #97797B;
+--green: #79785D;
+--gold: #E2CF9B;
+--background: #E5E5E5;
+--white: #fff; */

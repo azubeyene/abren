@@ -1,0 +1,29 @@
+.makeStyles-root-1{
+    margin: auto;
+} 
+
+.profImage {
+    border-radius: 3px;
+    margin: 10px;
+    width: fit-content;
+    max-height: 30vh;
+}
+
+.newPost {
+    position: fixed;
+    bottom: 5px;
+    right: 75px;
+    margin-bottom: 20px;
+    background-color: #CDD6C2;
+    border-radius: 50px;
+}
+
+.gridCont {
+    display: flex;
+}
+
+@media (max-width: 800px) {
+    .profImage {
+        max-height: 100vh;
+    }
+  }

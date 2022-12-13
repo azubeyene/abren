@@ -1,0 +1,66 @@
+.Profile-container {
+    display:flex;
+    flex-direction: row; 
+    width:100%; 
+    padding:28px;
+    padding-top:16px;
+    padding-right: 0px;
+}
+
+.Profile-header {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%; 
+    padding:8px;
+    margin-top:109px; 
+}
+
+.Profile-header-image {
+    margin: auto;
+    border-radius:15px;
+}
+
+.Profile-header-bio {
+    display: flex; 
+    flex-direction: column; 
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile-header-name {
+    color:#808080; 
+    font-size: 28px;
+}
+
+.Profile-header-email {
+    color:#808080; 
+    font-size: 20px;
+}
+
+.Profile-stories-container {
+    width: 80%;
+    margin-top:20px;
+    padding: 16px;
+    padding-left: 50px;
+}
+
+
+.Profile-likes-container {
+    background-color: green;
+}
+
+.Profile-upload-icon {
+    width: 20%;
+    height: 100%;
+    background: url(./chairs_wooden.png) no-repeat; 
+    background-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px; 
+}
+.Profile-user-photo {
+    width: 100px; 
+    height: 100px; 
+}
